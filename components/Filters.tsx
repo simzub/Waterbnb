@@ -145,44 +145,58 @@ export default function Filters() {
         left: newScrollPos,
         behavior: 'smooth',
       });
-      console.log(container);
     }
   };
 
   useEffect(() => {
     const container = containerRef.current;
     if (container) {
-      setShowLeftIcon(container.scrollLeft > 0);
-      setShowRightIcon(
-        container.scrollLeft < container.scrollWidth - container.clientWidth
-      );
+      if (scrollPos !== 0) {
+        setShowLeftIcon(true);
+      } else setShowLeftIcon(false);
+      if (scrollPos + container.clientWidth === container.scrollWidth) {
+        setShowRightIcon(false);
+      } else setShowRightIcon(true);
     }
-    console.log(scrollPos);
+    console.log(`scrollPos`, scrollPos);
+    console.log(`container.scrollLeft`, container.scrollLeft);
+    console.log(`container.scrollWidth`, container.scrollWidth);
+    console.log(`container.clientWidth`, container.clientWidth);
   }, [scrollPos]);
-
-  // className={`flex border-b-2 border-transparent gap-8 hover:border-inherit ${
-  //   selectedFilter === image ? 'opacity-100' : 'opacity-60'
-  // }`}
 
   return (
     <div className="relative mt-5 px-10">
+      {showLeftIcon && (
+        <div className="h-full items-center flex absolute z-10 ">
+          <div
+            onClick={handleScrollLeft}
+            className="h-full flex items-center bg-white"
+          >
+            <div className="border p-2 rounded-full  cursor-pointer ">
+              <LeftIcon />
+            </div>
+          </div>
+          <div className="h-full w-10 block box-border bg-gradient-to-r from-white to-transparent"></div>
+        </div>
+      )}
       <div className="flex justify-between">
         <div
           ref={containerRef}
-          className="flex gap-8 flex-nowrap overflow-hidden scroll-smooth"
+          className="flex gap-8 flex-nowrap overflow-hidden"
         >
           {imagesArray.map((image) => (
             <div
               key={image}
-              className={`flex border-b-2  gap-8 hover:border-inherit ${
+              className={`flex border-b-2  gap-8  ${
                 selectedFilter === image
                   ? 'border-current'
-                  : 'border-transparent'
+                  : 'border-transparent hover:border-inherit'
               }`}
             >
               <label className="mt-3 mb-[10px] py-1 cursor-pointer">
                 <span
                   onClick={() => setSelectedFilter(image)}
+                  // className="flex gap-2 flex-col items-center"
                   className={`flex gap-2 flex-col items-center ${
                     selectedFilter === image ? 'opacity-100' : 'opacity-60'
                   }  hover:opacity-100 transition-opacity `}
@@ -196,7 +210,7 @@ export default function Filters() {
             </div>
           ))}
         </div>
-        <div className="flex items-center">
+        <div className="flex items-center pl-6 ">
           <div className="flex h-12 border px-4 items-center rounded-xl cursor-pointer">
             <span className="flex py-2 justify-center gap-2 items-center">
               <FilterIcon />
@@ -205,23 +219,16 @@ export default function Filters() {
           </div>
         </div>
       </div>
-      {showLeftIcon && (
-        <div
-          onClick={handleScrollLeft}
-          className="absolute top-1/2 transform -translate-y-1/2 cursor-pointer"
-        >
-          <div className="border p-2 rounded-full">
-            <LeftIcon />
-          </div>
-        </div>
-      )}
       {showRightIcon && (
-        <div
-          onClick={handleScrollRight}
-          className="absolute right-40 top-1/2 transform -translate-y-1/2 cursor-pointer"
-        >
-          <div className="border p-2 rounded-full ">
-            <RightIcon />
+        <div className="absolute flex right-36 h-full top-1/2 transform -translate-y-1/2 z-10">
+          <div className="h-full w-10 block box-border bg-gradient-to-l from-white to-transparent"></div>
+          <div
+            onClick={handleScrollRight}
+            className="h-full bg-white flex items-center"
+          >
+            <div className="border p-2 rounded-full cursor-pointer">
+              <RightIcon />
+            </div>
           </div>
         </div>
       )}
