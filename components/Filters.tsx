@@ -158,10 +158,6 @@ export default function Filters() {
         setShowRightIcon(false);
       } else setShowRightIcon(true);
     }
-    console.log(`scrollPos`, scrollPos);
-    console.log(`container.scrollLeft`, container.scrollLeft);
-    console.log(`container.scrollWidth`, container.scrollWidth);
-    console.log(`container.clientWidth`, container.clientWidth);
   }, [scrollPos]);
 
   return (
