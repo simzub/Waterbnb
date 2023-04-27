@@ -127,8 +127,8 @@ export default function Navbar() {
             </div>
           </div>
         </div>
-        <div className=" items-center  flex ">
-          <div className="text-sm font-medium cursor-pointer rounded-full hover:bg-gray-50 p-3">
+        <div className=" items-center flex ">
+          <div className="text-sm text-center font-medium cursor-pointer rounded-full hover:bg-gray-50 p-3">
             Waterbnb you home
           </div>
           <div className="cursor-pointer rounded-full hover:bg-gray-50 p-3">

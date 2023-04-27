@@ -161,29 +161,29 @@ export default function Filters() {
   }, [scrollPos]);
 
   return (
-    <div className="relative mt-5 px-10">
+    <div className="relative mt-5 md:px-10">
       {showLeftIcon && (
-        <div className="h-full items-center flex absolute z-10 ">
+        <div className="h-full items-center hidden md:flex absolute z-10 ">
           <div
             onClick={handleScrollLeft}
             className="h-full flex items-center bg-white"
           >
-            <div className="border p-2 rounded-full  cursor-pointer ">
+            <div className="border p-2 rounded-full cursor-pointer ">
               <LeftIcon />
             </div>
           </div>
           <div className="h-full w-10 block box-border bg-gradient-to-r from-white to-transparent"></div>
         </div>
       )}
-      <div className="flex justify-between">
+      <div className="flex  justify-between">
         <div
           ref={containerRef}
-          className="flex gap-8 flex-nowrap overflow-hidden"
+          className="flex gap-8 px-6 md:px-0 no-scrollbar flex-nowrap overflow-auto md:overflow-hidden"
         >
           {imagesArray.map((image) => (
             <div
               key={image}
-              className={`flex border-b-2  gap-8  ${
+              className={`flex border-b-2 gap-8  ${
                 selectedFilter === image
                   ? 'border-current'
                   : 'border-transparent hover:border-inherit'
@@ -206,7 +206,7 @@ export default function Filters() {
             </div>
           ))}
         </div>
-        <div className="flex items-center pl-6 ">
+        <div className="hidden md:flex items-center pl-6 ">
           <div className="flex h-12 border px-4 items-center rounded-xl cursor-pointer">
             <span className="flex py-2 justify-center gap-2 items-center">
               <FilterIcon />
@@ -216,7 +216,7 @@ export default function Filters() {
         </div>
       </div>
       {showRightIcon && (
-        <div className="absolute flex right-36 h-full top-1/2 transform -translate-y-1/2 z-10">
+        <div className="absolute hidden md:flex right-36 h-full top-1/2 transform -translate-y-1/2 z-10">
           <div className="h-full w-10 block box-border bg-gradient-to-l from-white to-transparent"></div>
           <div
             onClick={handleScrollRight}
