@@ -1,8 +1,7 @@
-import Image from 'next/image';
 import Filters from '@/components/Filters';
 import Navbar from '@/components/Navbar';
-import Card from '@/components/Card';
 import MainContent from '@/components/MainContent';
+import NewCard from '@/components/NewCard';
 
 export default function Home() {
   return (
