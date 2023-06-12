@@ -168,7 +168,7 @@ export default function Filters() {
             onClick={handleScrollLeft}
             className="h-full flex items-center bg-white"
           >
-            <div className="border p-2 rounded-full cursor-pointer ">
+            <div className="border p-2 rounded-full cursor-pointer hover:shadow-md">
               <LeftIcon />
             </div>
           </div>
@@ -222,7 +222,7 @@ export default function Filters() {
             onClick={handleScrollRight}
             className="h-full bg-white flex items-center"
           >
-            <div className="border p-2 rounded-full cursor-pointer">
+            <div className="border p-2 rounded-full cursor-pointer hover:shadow-md ">
               <RightIcon />
             </div>
           </div>
