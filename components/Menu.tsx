@@ -42,9 +42,12 @@ function classNames(...classes: any) {
 
 export default function MenuComponent() {
   return (
-    <Menu as="div">
+    <Menu
+      as="div"
+      className="flex border py-2 pl-3 pr-2 items-center rounded-full cursor-pointer hover:shadow-md transition-shadow ui-open:shadow-md"
+    >
       <div>
-        <Menu.Button className="flex items-center ui-open:bg-red-500">
+        <Menu.Button className="flex items-center">
           <BarsIcon />
           <UserIcon />
         </Menu.Button>
@@ -59,7 +62,7 @@ export default function MenuComponent() {
         leaveFrom="transform opacity-100 scale-100"
         leaveTo="transform opacity-0 scale-95"
       >
-        <Menu.Items className="absolute right-10 z-20 mt-4 py-1 w-60 origin-top-right divide-y divide-gray-300 rounded-xl bg-white shadow-2xl ring-1 ring-black ring-opacity-5 focus:outline-none text-sm">
+        <Menu.Items className="absolute top-14 right-10 z-20 mt-4 py-1 w-60 origin-top-right divide-y divide-gray-300 rounded-xl bg-white shadow-2xl ring-1 ring-black ring-opacity-5 focus:outline-none text-sm">
           <div className="py-1">
             <Menu.Item>
               {({ active }) => (

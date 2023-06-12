@@ -192,7 +192,6 @@ export default function Filters() {
               <label className="mt-3 mb-[10px] py-1 cursor-pointer">
                 <span
                   onClick={() => setSelectedFilter(image)}
-                  // className="flex gap-2 flex-col items-center"
                   className={`flex gap-2 flex-col items-center ${
                     selectedFilter === image ? 'opacity-100' : 'opacity-60'
                   }  hover:opacity-100 transition-opacity `}

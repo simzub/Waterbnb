@@ -99,9 +99,8 @@ export default function Navbar() {
           <div className="cursor-pointer rounded-full hover:bg-gray-50 p-3">
             <GlobeIcon />
           </div>
-          <div className="flex border py-2 pl-3 pr-2 items-center rounded-full cursor-pointer hover:shadow-md transition-shadow">
-            <MenuComponent />
-          </div>
+
+          <MenuComponent />
         </div>
       </div>
       {/* Small screen */}
