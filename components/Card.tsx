@@ -28,7 +28,7 @@ function HeartIcon() {
       viewBox="0 0 24 24"
       strokeWidth={1.5}
       stroke="white"
-      className="w-6 h-6"
+      className="w-7 h-7"
     >
       <path
         strokeLinecap="round"
@@ -110,55 +110,59 @@ export default function Card(props: any) {
   }, [props.dateStart, props.dateEnd]);
 
   return (
-    <div className="relative flex flex-col cursor-pointer">
-      <div className="h-0 pb-[95%] relative mb-3 b flex justify-between group ">
+    <li className="relative cursor-pointer">
+      <div className="group relative aspect-h-9 aspect-w-10 block w-full overflow-hidden rounded-lg bg-gray-100 ">
         <ApartamentImage
           src={props.url[currentImageIndex]}
-          className="rounded-lg select-none object-cover "
+          alt=""
+          className="pointer-events-none select-none object-cover"
         />
-        {/* * */}
-        <div className="absolute">
-          <HeartIcon />
+
+        <div>
+          <div className=" opacity-70 absolute p-4 right-0">
+            <HeartIcon />
+          </div>
         </div>
-        {/* * */}
-        <div className="absolute flex bottom-2 left-1/2 transform -translate-x-1/2">
-          {props.url.map((_: any, index: any) => (
+
+        <div className="flex justify-center">
+          <div className="absolute bottom-4 h-1 flex justify-center">
+            {props.url.map((_: any, index: any) => (
+              <div
+                key={index}
+                className={`border p-0.5 rounded-full transition-opacity cursor-pointer bg-white mx-1 ${
+                  index === currentImageIndex ? 'opacity-100' : 'opacity-50'
+                }`}
+              ></div>
+            ))}
+          </div>
+        </div>
+        <div className="absolute inset-0 flex items-center justify-between p-2">
+          {currentImageIndex !== 0 && (
             <div
-              key={index}
-              className={`border p-0.5 rounded-full transition-opacity cursor-pointer bg-white mx-1 ${
-                index === currentImageIndex ? 'opacity-100' : 'opacity-50'
-              }`}
-            ></div>
-          ))}
-        </div>
-        {currentImageIndex !== 0 && (
-          <div
-            onClick={handleLeftIconClick}
-            className="absolute left-0 top-0 bottom-0 flex items-center"
-          >
-            <div className="border p-2 rounded-full cursor-pointer bg-white group-hover:opacity-90 opacity-0 transform -translate-y-1/5 transition-opacity">
+              className="border rounded-full cursor-pointer bg-white w-8 h-8 flex items-center justify-center absolute left-2 group-hover:opacity-90 opacity-0 transition-opacity"
+              onClick={handleLeftIconClick}
+            >
               <LeftIcon />
             </div>
-          </div>
-        )}
-        {currentImageIndex !== props.url.length - 1 && (
-          <div
-            onClick={handleRightIconClick}
-            className="absolute  right-0 top-0 bottom-0 flex items-center"
-          >
-            <div className="border p-2 rounded-full cursor-pointer bg-white group-hover:opacity-90 opacity-0 transform -translate-y-1/5 transition-opacity">
+          )}
+          {currentImageIndex !== props.url.length - 1 && (
+            <div
+              className="border rounded-full cursor-pointer bg-white w-8 h-8 flex items-center justify-center absolute right-2 group-hover:opacity-90 opacity-0 transition-opacity"
+              onClick={handleRightIconClick}
+            >
               <RightIcon />
             </div>
-          </div>
-        )}
+          )}
+        </div>
       </div>
-      <div className="flex flex-col select-none">
+      <div className="flex flex-col select-none pt-2">
         <div className="flex justify-between items-center">
-          <div className="text-sm font-medium truncate">
+          <div className="text-md font-medium truncate">
             {props.location}, {props.country}
           </div>
           <div className="flex justify-center items-center">
             <StarIcon />
+            <span>&nbsp;</span>
             <div className="text-sm font-medium">{props.rating}</div>
           </div>
         </div>
@@ -172,6 +176,6 @@ export default function Card(props: any) {
           <b>€ {props.price}</b> night
         </div>
       </div>
-    </div>
+    </li>
   );
 }

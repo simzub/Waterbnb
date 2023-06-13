@@ -171,7 +171,6 @@ export default function Filters() {
 
     return () => {
       window.onscroll = null;
-      console.log(scrolledY);
     };
   }, [scrolledY]);
 

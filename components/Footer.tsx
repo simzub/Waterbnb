@@ -1,4 +1,6 @@
-import Image from 'next/image';
+import ModalBottom from './ModalBottom';
+import { useState } from 'react';
+import Destinations from './Destinations';
 
 function GlobeIcon() {
   return (
@@ -66,62 +68,73 @@ function PrivacyIcon() {
 }
 
 export default function Footer() {
+  const [openLanguageModal, setOpenLanguageModal] = useState(false);
   return (
-    <footer className="sticky bottom-0 w-full bg-gray-50 flex justify-between px-10 py-3 border-t-[1px] border-[#dddddd] text-sm">
-      <div className="flex ">
-        <span>© {new Date().getFullYear()} Waterbnb, Inc.</span>
-        <span className="mx-2">·</span>
-        <span className="flex">
-          <ol className="flex">
-            <li>
-              <a className="hover:underline cursor-pointer">Terms</a>
-            </li>
-            <li>
-              <span className="mx-2">·</span>
-              <a className="hover:underline cursor-pointer">Sitemap</a>
-            </li>
-            <li>
-              <span className="mx-2">·</span>
-              <a className="hover:underline cursor-pointer">Privacy</a>
-            </li>
-            <li className="flex ">
-              <span className="mx-2">·</span>
-              <a className="flex justify-center items-center hover:underline cursor-pointer">
-                <span>Your Privacy Choices</span>
-                <span className="ml-2">
-                  <PrivacyIcon />
-                </span>
-              </a>
-            </li>
-          </ol>
+    <div className="sticky bottom-0 z-20 bg-gray-50 ">
+      {openLanguageModal && (
+        <ModalBottom open={openLanguageModal} setOpen={setOpenLanguageModal}>
+          <Destinations />
+        </ModalBottom>
+      )}
+      <footer className="w-full flex justify-between px-10 py-3 border-t-[1px] border-[#dddddd] text-sm">
+        <div className="flex ">
+          <span>© {new Date().getFullYear()} Waterbnb, Inc.</span>
           <span className="mx-2">·</span>
-          <button className="hover:underline cursor-pointer">
-            Destinations
-          </button>
-        </span>
-      </div>
-      <div className="flex font-medium gap-4">
-        <div className="flex">
-          <span className="mr-4">
-            <button className="flex">
-              <span className="mr-2">
-                <GlobeIcon />
-              </span>
-              <span className="hover:underline">English (US)</span>
+          <span className="flex">
+            <ol className="flex">
+              <li>
+                <a className="hover:underline cursor-pointer">Terms</a>
+              </li>
+              <li>
+                <span className="mx-2">·</span>
+                <a className="hover:underline cursor-pointer">Sitemap</a>
+              </li>
+              <li>
+                <span className="mx-2">·</span>
+                <a className="hover:underline cursor-pointer">Privacy</a>
+              </li>
+              <li className="flex ">
+                <span className="mx-2">·</span>
+                <a className="flex justify-center items-center hover:underline cursor-pointer">
+                  <span>Your Privacy Choices</span>
+                  <span className="ml-2">
+                    <PrivacyIcon />
+                  </span>
+                </a>
+              </li>
+            </ol>
+            <span className="mx-2">·</span>
+            <button
+              className="hover:underline cursor-pointer"
+              onClick={() => setOpenLanguageModal(true)}
+            >
+              Destinations
             </button>
           </span>
-          <button>
-            <span className="mr-2">€</span>
-            <span className="hover:underline">EUR</span>
+        </div>
+        <div className="flex font-medium gap-4">
+          <div className="flex">
+            <span className="mr-4">
+              <button className="flex">
+                <span className="mr-2">
+                  <GlobeIcon />
+                </span>
+                <span className="hover:underline">English (US)</span>
+              </button>
+            </span>
+            <button>
+              <span className="mr-2">€</span>
+              <span className="hover:underline">EUR</span>
+            </button>
+          </div>
+          <button className="flex">
+            <span className="hover:underline">Support & resources</span>
+            <span className="ml-1">
+              <UpIcon />
+            </span>
           </button>
         </div>
-        <button className="flex">
-          <span className="hover:underline">Support & resources</span>
-          <span className="ml-1">
-            <UpIcon />
-          </span>
-        </button>
-      </div>
-    </footer>
+      </footer>
+    </div>
   );
 }

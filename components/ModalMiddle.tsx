@@ -11,9 +11,9 @@ export default function ModalMiddle(props: ModalMiddleProps) {
 
   return (
     <Transition show={props.open} as={Fragment}>
-      <Dialog as="div" className="relative z-10" onClose={props.setOpen}>
+      <Dialog as="div" className="relative z-20" onClose={props.setOpen}>
         <div className="fixed inset-0 bg-black bg-opacity-50 transition-opacity" />
-        <div className="fixed inset-0 z-10 overflow-y-auto">
+        <div className="fixed inset-0 z-20 overflow-y-auto">
           <div className="flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0">
             <Dialog.Panel className="relative transform overflow-hidden rounded-lg bg-white px-4 pb-4 pt-5 text-left shadow-xl transition-all my-8 w-full max-w-sm p-6">
               <div>
