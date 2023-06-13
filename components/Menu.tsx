@@ -102,7 +102,7 @@ export default function MenuComponent() {
                     'block px-4 py-3 text-sm'
                   )}
                 >
-                  Airbnb your home
+                  Waterbnb your home
                 </a>
               )}
             </Menu.Item>

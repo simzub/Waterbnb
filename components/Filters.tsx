@@ -119,6 +119,7 @@ export default function Filters() {
   const [showLeftIcon, setShowLeftIcon] = useState(false);
   const [showRightIcon, setShowRightIcon] = useState(true);
   const [selectedFilter, setSelectedFilter] = useState('Cabins');
+  const [scrolledY, setScrolledY] = useState(false);
 
   const handleScrollRight = () => {
     const container = containerRef.current;
@@ -160,8 +161,26 @@ export default function Filters() {
     }
   }, [scrollPos]);
 
+  useEffect(() => {
+    const handleScroll = () => {
+      const isScrolled = window.scrollY > 0;
+      setScrolledY(isScrolled);
+    };
+
+    window.onscroll = handleScroll;
+
+    return () => {
+      window.onscroll = null;
+      console.log(scrolledY);
+    };
+  }, [scrolledY]);
+
   return (
-    <div className="relative mt-5 md:px-10">
+    <div
+      className={`sticky sm:pt-4 top-[68px] z-10 bg-white md:px-10 shadow-md ${
+        scrolledY ? 'sm:shadow-md' : 'sm:shadow-none'
+      }`}
+    >
       {showLeftIcon && (
         <div className="h-full items-center hidden md:flex absolute z-10 ">
           <div
