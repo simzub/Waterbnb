@@ -70,50 +70,50 @@ function PrivacyIcon() {
 export default function Footer() {
   const [openLanguageModal, setOpenLanguageModal] = useState(false);
   return (
-    <div className="sticky bottom-0 z-20 bg-gray-50 ">
+    <div className="sticky bottom-0 z-20 bg-gray-50 hidden md:block">
       {openLanguageModal && (
         <ModalBottom open={openLanguageModal} setOpen={setOpenLanguageModal}>
           <Destinations />
         </ModalBottom>
       )}
       <footer className="w-full flex justify-between px-10 py-3 border-t-[1px] border-[#dddddd] text-sm">
-        <div className="flex ">
-          <span>© {new Date().getFullYear()} Waterbnb, Inc.</span>
-          <span className="mx-2">·</span>
-          <span className="flex">
-            <ol className="flex">
-              <li>
-                <a className="hover:underline cursor-pointer">Terms</a>
-              </li>
-              <li>
-                <span className="mx-2">·</span>
-                <a className="hover:underline cursor-pointer">Sitemap</a>
-              </li>
-              <li>
-                <span className="mx-2">·</span>
-                <a className="hover:underline cursor-pointer">Privacy</a>
-              </li>
-              <li className="flex ">
-                <span className="mx-2">·</span>
-                <a className="flex justify-center items-center hover:underline cursor-pointer">
-                  <span>Your Privacy Choices</span>
-                  <span className="ml-2">
-                    <PrivacyIcon />
-                  </span>
-                </a>
-              </li>
-            </ol>
-            <span className="mx-2">·</span>
-            <button
-              className="hover:underline cursor-pointer"
-              onClick={() => setOpenLanguageModal(true)}
-            >
-              Destinations
-            </button>
+        <div className="flex flex-wrap">
+          <span className="whitespace-nowrap">
+            © {new Date().getFullYear()} Waterbnb, Inc.
           </span>
-        </div>
-        <div className="flex font-medium gap-4">
+          <span className="mx-2">·</span>
+          <ol className="flex">
+            <li>
+              <a className="hover:underline cursor-pointer">Terms</a>
+            </li>
+            <li>
+              <span className="mx-2">·</span>
+              <a className="hover:underline cursor-pointer">Sitemap</a>
+            </li>
+            <li>
+              <span className="mx-2">·</span>
+              <a className="hover:underline cursor-pointer">Privacy</a>
+            </li>
+          </ol>
           <div className="flex">
+            <span className="mx-2">·</span>
+            <a className="flex justify-center items-center hover:underline cursor-pointer whitespace-nowrap">
+              <span>Your Privacy Choices</span>
+              <span className="ml-2">
+                <PrivacyIcon />
+              </span>
+            </a>
+          </div>
+          <span className="mx-2">·</span>
+          <button
+            className="hover:underline cursor-pointer flex flex-wrap"
+            onClick={() => setOpenLanguageModal(true)}
+          >
+            Destinations
+          </button>
+        </div>
+        <div className="flex items-center font-medium gap-4 whitespace-nowrap">
+          <div className="flex ">
             <span className="mr-4">
               <button className="flex">
                 <span className="mr-2">

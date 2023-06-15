@@ -1,6 +1,18 @@
 import { NextApiRequest, NextApiResponse } from 'next';
 
-export const data = [
+interface TravelDestination {
+  id: number;
+  location: string;
+  country: string;
+  kmAway: number;
+  dateStart: string;
+  dateEnd: string;
+  price: number;
+  rating: number;
+  photos: string[];
+}
+
+export const data: TravelDestination[] = [
   {
     id: 1,
     location: 'Cancun',
