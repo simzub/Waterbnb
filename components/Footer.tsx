@@ -1,7 +1,3 @@
-import ModalBottom from './ModalBottom';
-import { useState } from 'react';
-import Destinations from './Destinations';
-
 function GlobeIcon() {
   return (
     <svg
@@ -48,12 +44,12 @@ function PrivacyIcon() {
       <path
         d="M4.5 6.5l1.774 1.774a.25.25 0 00.39-.049L9.5 3.5"
         stroke="#06F"
-        stroke-linecap="round"
+        strokeLinecap="round"
       ></path>
       <path
         d="M16.5 3.5L19 6m0 0l2.5 2.5M19 6l2.5-2.5M19 6l-2.5 2.5"
         stroke="#fff"
-        stroke-linecap="round"
+        strokeLinecap="round"
       ></path>
       <rect
         x="0.5"
@@ -68,14 +64,8 @@ function PrivacyIcon() {
 }
 
 export default function Footer() {
-  const [openLanguageModal, setOpenLanguageModal] = useState(false);
   return (
     <div className="sticky bottom-0 z-20 bg-gray-50 hidden md:block">
-      {openLanguageModal && (
-        <ModalBottom open={openLanguageModal} setOpen={setOpenLanguageModal}>
-          <Destinations />
-        </ModalBottom>
-      )}
       <footer className="w-full flex justify-between px-10 py-3 border-t-[1px] border-[#dddddd] text-sm">
         <div className="flex flex-wrap">
           <span className="whitespace-nowrap">
@@ -105,10 +95,7 @@ export default function Footer() {
             </a>
           </div>
           <span className="mx-2">·</span>
-          <button
-            className="hover:underline cursor-pointer flex flex-wrap"
-            onClick={() => setOpenLanguageModal(true)}
-          >
+          <button className="hover:underline cursor-pointer flex flex-wrap">
             Destinations
           </button>
         </div>
@@ -127,8 +114,8 @@ export default function Footer() {
               <span className="hover:underline">EUR</span>
             </button>
           </div>
-          <button className="flex">
-            <span className="hover:underline">Support & resources</span>
+          <button className="flex hover:underline">
+            <span>Support & resources</span>
             <span className="ml-1">
               <UpIcon />
             </span>

@@ -1,69 +1,7 @@
 import Image from 'next/image';
 import { useEffect, useRef, useState } from 'react';
 
-const imagesArray: string[] = [
-  'Cabins',
-  'Amazing_pools',
-  'Beachfront',
-  'Private_rooms',
-  'Mansions',
-  'Amazing_views',
-  'OMG!',
-  'Luxe',
-  'Boats',
-  'Iconic_cities',
-  'Treehouses',
-  'Off-the-grid',
-  'Riads',
-  'Tiny_homes',
-  'Creative_spaces',
-  'Trending',
-  'Vineyards',
-  'Domes',
-  'Historical_homes',
-  "Chef's_kitchen",
-  'A-frames',
-  'Countryside',
-  'Lakefront',
-  'National_parks',
-  'Yurts',
-  'Design',
-  'Ski-in~out',
-  'Castles',
-  'Tropical',
-  'New',
-  'Ryokans',
-  'Play',
-  'Camping',
-  'Top_of_the_world',
-  'Hanoks',
-  'Skiing',
-  'Lake',
-  'Farms',
-  'Islands',
-  'Towers',
-  'Caves',
-  'Cycladic_homes',
-  'Bed_&_breakfasts',
-  'Earth_homes',
-  'Surfing',
-  'Dammusi',
-  'Trulli',
-  'Desert',
-  'Grand_pianos',
-  'Casas_particulares',
-  'Barns',
-  'Houseboats',
-  "Shepherd's_huts",
-  'Windmills',
-  'Campers',
-  'Arctic',
-  'Golfing',
-  'Minsus',
-  'Adapted',
-  'Containers',
-  'Beach',
-];
+import { imagesArray } from '@/data/filter';
 
 function FilterIcons(props: any) {
   return <Image width={24} height={24} {...props} />; // eslint-disable-line
@@ -181,7 +119,7 @@ export default function Filters() {
       }`}
     >
       {showLeftIcon && (
-        <div className="h-full items-center hidden md:flex absolute z-10 ">
+        <div className="h-full  items-center hidden md:flex absolute top-0 z-10 ">
           <div
             onClick={handleScrollLeft}
             className="h-full flex items-center bg-white"
@@ -233,7 +171,7 @@ export default function Filters() {
         </div>
       </div>
       {showRightIcon && (
-        <div className="absolute hidden md:flex right-36 h-full top-1/2 transform -translate-y-1/2 z-10">
+        <div className="absolute  hidden md:flex right-36 h-full top-1/2 transform -translate-y-1/2 z-10">
           <div className="h-full w-10 block box-border bg-gradient-to-l from-white to-transparent"></div>
           <div
             onClick={handleScrollRight}

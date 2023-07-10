@@ -1,4 +1,4 @@
-import { data } from '../pages/data';
+import { data } from '../data/data';
 import NewCard from './Card';
 export default function MainContent() {
   return (

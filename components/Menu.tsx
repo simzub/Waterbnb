@@ -44,7 +44,7 @@ export default function MenuComponent() {
   return (
     <Menu
       as="div"
-      className="flex border py-2 pl-3 pr-2 items-center rounded-full cursor-pointer hover:shadow-md transition-shadow ui-open:shadow-md"
+      className="flex border py-1 pl-3 pr-2 items-center rounded-full cursor-pointer hover:shadow-md transition-shadow ui-open:shadow-md"
     >
       <div>
         <Menu.Button className="flex items-center">

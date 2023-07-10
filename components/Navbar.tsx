@@ -1,8 +1,5 @@
 import Image from 'next/image';
 import MenuComponent from './Menu';
-import { useState } from 'react';
-import ModalMiddle from './ModalMiddle';
-import ModalBottom from './ModalBottom';
 
 function LogoIcon() {
   return (
@@ -74,12 +71,8 @@ function SearchIcon() {
 }
 
 export default function Navbar() {
-  const [openLanguageModal, setOpenLanguageModal] = useState(false);
   return (
     <nav className="sticky top-0 z-20 bg-white">
-      {openLanguageModal && (
-        <ModalMiddle open={openLanguageModal} setOpen={setOpenLanguageModal} />
-      )}
       {/* Normal screen */}
       <div className="hidden md:flex flex-row justify-between px-10 border-b-[1px] items-center ">
         <div className="cursor-pointer flex">
@@ -103,10 +96,7 @@ export default function Navbar() {
           <div className="text-sm text-center font-medium cursor-pointer rounded-full hover:bg-gray-50 p-3">
             Waterbnb you home
           </div>
-          <div
-            className="cursor-pointer rounded-full hover:bg-gray-50 p-3"
-            onClick={() => setOpenLanguageModal(true)}
-          >
+          <div className="cursor-pointer rounded-full hover:bg-gray-50 p-3">
             <GlobeIcon />
           </div>
           <MenuComponent />
