@@ -1,4 +1,4 @@
-# waterbnb app
+# Waterbnb app
 
 Waterbnb is replica of Airbnb, designed to explore and learn the fundamentals of app development.
 
