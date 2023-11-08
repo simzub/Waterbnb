@@ -10,6 +10,7 @@ function ApartamentImage(props: any) {
       alt=""
       quality={40}
       placeholder="blur"
+      priority={true}
     />
   ); // eslint-disable-line
 }
