@@ -2,7 +2,16 @@ import Image from 'next/image';
 import { useEffect, useState } from 'react';
 
 function ApartamentImage(props: any) {
-  return <Image fill {...props} sizes="(max-width: 768px) 100vw" alt="" />; // eslint-disable-line
+  return (
+    <Image
+      fill
+      {...props}
+      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+      alt=""
+      quality={40}
+      placeholder="blur"
+    />
+  ); // eslint-disable-line
 }
 
 function StarIcon() {
