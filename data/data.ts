@@ -23,9 +23,9 @@ export const data: TravelDestination[] = [
     price: 300,
     rating: 4.21,
     photos: [
-      'https://images.unsplash.com/photo-1502672260266-1c1ef2d93688',
-      'https://images.unsplash.com/photo-1515263487990-61b07816b324',
-      'https://images.unsplash.com/photo-1522708323590-d24dbb6b0267',
+      '/../public/apartament/1.jpg',
+      '/../public/apartament/2.jpg',
+      '/../public/apartament/3.jpg',
     ],
   },
   {
@@ -38,10 +38,9 @@ export const data: TravelDestination[] = [
     price: 150,
     rating: 4.34,
     photos: [
-      'https://images.unsplash.com/photo-1560440021-33f9b867899d',
-
-      'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2',
-      'https://images.unsplash.com/photo-1493809842364-78817add7ffb',
+      '/../public/apartament/4.jpg',
+      '/../public/apartament/5.jpg',
+      '/../public/apartament/6.jpg',
     ],
   },
   {
@@ -54,9 +53,9 @@ export const data: TravelDestination[] = [
     price: 250,
     rating: 4.92,
     photos: [
-      'https://images.unsplash.com/photo-1574362848149-11496d93a7c7',
-      'https://images.unsplash.com/photo-1484154218962-a197022b5858',
-      'https://images.unsplash.com/photo-1579632652768-6cb9dcf85912',
+      '/../public/apartament/7.jpg',
+      '/../public/apartament/8.jpg',
+      '/../public/apartament/9.jpg',
     ],
   },
   {
@@ -69,9 +68,9 @@ export const data: TravelDestination[] = [
     price: 300,
     rating: 4.67,
     photos: [
-      'https://images.unsplash.com/photo-1460317442991-0ec209397118',
-      'https://images.unsplash.com/photo-1523192193543-6e7296d960e4',
-      'https://images.unsplash.com/photo-1502672023488-70e25813eb80',
+      '/../public/apartament/10.jpg',
+      '/../public/apartament/11.jpg',
+      '/../public/apartament/12.jpg',
     ],
   },
   {
@@ -84,9 +83,9 @@ export const data: TravelDestination[] = [
     price: 180,
     rating: 4.51,
     photos: [
-      'https://images.unsplash.com/photo-1580041065738-e72023775cdc',
-      'https://images.unsplash.com/photo-1556020685-ae41abfc9365',
-      'https://images.unsplash.com/photo-1515263487990-61b07816b324',
+      '/../public/apartament/13.jpg',
+      '/../public/apartament/14.jpg',
+      '/../public/apartament/15.jpg',
     ],
   },
   {
@@ -99,9 +98,9 @@ export const data: TravelDestination[] = [
     price: 220,
     rating: 4.89,
     photos: [
-      'https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd',
-      'https://images.unsplash.com/photo-1628592102751-ba83b0314276',
-      'https://images.unsplash.com/photo-1630699144867-37acec97df5a',
+      '/../public/apartament/16.jpg',
+      '/../public/apartament/17.jpg',
+      '/../public/apartament/18.jpg',
     ],
   },
   {
@@ -114,9 +113,9 @@ export const data: TravelDestination[] = [
     price: 180,
     rating: 4.72,
     photos: [
-      'https://images.unsplash.com/photo-1556020685-ae41abfc9365',
-      'https://images.unsplash.com/photo-1502672260266-1c1ef2d93688',
-      'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00',
+      '/../public/apartament/19.jpg',
+      '/../public/apartament/20.jpg',
+      '/../public/apartament/21.jpg',
     ],
   },
   {
@@ -129,9 +128,9 @@ export const data: TravelDestination[] = [
     price: 200,
     rating: 4.78,
     photos: [
-      'https://images.unsplash.com/photo-1580216643062-cf460548a66a',
-      'https://images.unsplash.com/photo-1484154218962-a197022b5858',
-      'https://images.unsplash.com/photo-1579632652768-6cb9dcf85912',
+      '/../public/apartament/22.jpg',
+      '/../public/apartament/23.jpg',
+      '/../public/apartament/24.jpg',
     ],
   },
   {
@@ -144,9 +143,9 @@ export const data: TravelDestination[] = [
     price: 280,
     rating: 4.91,
     photos: [
-      'https://images.unsplash.com/photo-1523192193543-6e7296d960e4',
-      'https://images.unsplash.com/photo-1493809842364-78817add7ffb',
-      'https://images.unsplash.com/photo-1459767129954-1b1c1f9b9ace',
+      '/../public/apartament/25.jpg',
+      '/../public/apartament/26.jpg',
+      '/../public/apartament/27.jpg',
     ],
   },
   {
@@ -159,9 +158,9 @@ export const data: TravelDestination[] = [
     price: 250,
     rating: 4.35,
     photos: [
-      'https://images.unsplash.com/photo-1515263487990-61b07816b324',
-      'https://images.unsplash.com/photo-1522708323590-d24dbb6b0267',
-      'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2',
+      '/../public/apartament/28.jpg',
+      '/../public/apartament/29.jpg',
+      '/../public/apartament/30.jpg',
     ],
   },
   {
@@ -174,9 +173,9 @@ export const data: TravelDestination[] = [
     price: 320,
     rating: 4.57,
     photos: [
-      'https://images.unsplash.com/photo-1630699144867-37acec97df5a',
-      'https://images.unsplash.com/photo-1580041065738-e72023775cdc',
-      'https://images.unsplash.com/photo-1560440021-33f9b867899d',
+      '/../public/apartament/31.jpg',
+      '/../public/apartament/32.jpg',
+      '/../public/apartament/33.jpg',
     ],
   },
   {
@@ -189,9 +188,9 @@ export const data: TravelDestination[] = [
     price: 180,
     rating: 4.26,
     photos: [
-      'https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd',
-      'https://images.unsplash.com/photo-1628592102751-ba83b0314276',
-      'https://images.unsplash.com/photo-1574362848149-11496d93a7c7',
+      '/../public/apartament/34.jpg',
+      '/../public/apartament/35.jpg',
+      '/../public/apartament/36.jpg',
     ],
   },
   {
@@ -204,9 +203,9 @@ export const data: TravelDestination[] = [
     price: 230,
     rating: 4.94,
     photos: [
-      'https://images.unsplash.com/photo-1460317442991-0ec209397118',
-      'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00',
-      'https://images.unsplash.com/photo-1502672023488-70e25813eb80',
+      '/../public/apartament/37.jpg',
+      '/../public/apartament/38.jpg',
+      '/../public/apartament/39.jpg',
     ],
   },
   {
@@ -219,9 +218,9 @@ export const data: TravelDestination[] = [
     price: 160,
     rating: 4.63,
     photos: [
-      'https://images.unsplash.com/photo-1560440021-33f9b867899d',
-      'https://images.unsplash.com/photo-1556020685-ae41abfc9365',
-      'https://images.unsplash.com/photo-1502672260266-1c1ef2d93688',
+      '/../public/apartament/40.jpg',
+      '/../public/apartament/41.jpg',
+      '/../public/apartament/42.jpg',
     ],
   },
   {
@@ -234,9 +233,9 @@ export const data: TravelDestination[] = [
     price: 120,
     rating: 4.83,
     photos: [
-      'https://images.unsplash.com/photo-1484154218962-a197022b5858',
-      'https://images.unsplash.com/photo-1580041065738-e72023775cdc',
-      'https://images.unsplash.com/photo-1579632652768-6cb9dcf85912',
+      '/../public/apartament/43.jpg',
+      '/../public/apartament/44.jpg',
+      '/../public/apartament/45.jpg',
     ],
   },
   {
@@ -249,9 +248,9 @@ export const data: TravelDestination[] = [
     price: 200,
     rating: 4.57,
     photos: [
-      'https://images.unsplash.com/photo-1628592102751-ba83b0314276',
-      'https://images.unsplash.com/photo-1574362848149-11496d93a7c7',
-      'https://images.unsplash.com/photo-1630699144867-37acec97df5a',
+      '/../public/apartament/46.jpg',
+      '/../public/apartament/47.jpg',
+      '/../public/apartament/48.jpg',
     ],
   },
   {
@@ -264,9 +263,9 @@ export const data: TravelDestination[] = [
     price: 280,
     rating: 4.12,
     photos: [
-      'https://images.unsplash.com/photo-1459767129954-1b1c1f9b9ace',
-      'https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd',
-      'https://images.unsplash.com/photo-1580216643062-cf460548a66a',
+      '/../public/apartament/49.jpg',
+      '/../public/apartament/50.jpg',
+      '/../public/apartament/51.jpg',
     ],
   },
   {
@@ -279,9 +278,9 @@ export const data: TravelDestination[] = [
     price: 150,
     rating: 4.95,
     photos: [
-      'https://images.unsplash.com/photo-1523192193543-6e7296d960e4',
-      'https://images.unsplash.com/photo-1493809842364-78817add7ffb',
-      'https://images.unsplash.com/photo-1502672023488-70e25813eb80',
+      '/../public/apartament/52.jpg',
+      '/../public/apartament/53.jpg',
+      '/../public/apartament/54.jpg',
     ],
   },
   {
@@ -294,9 +293,9 @@ export const data: TravelDestination[] = [
     price: 220,
     rating: 4.68,
     photos: [
-      'https://images.unsplash.com/photo-1460317442991-0ec209397118',
-      'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2',
-      'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00',
+      '/../public/apartament/55.jpg',
+      '/../public/apartament/56.jpg',
+      '/../public/apartament/57.jpg',
     ],
   },
   {
@@ -309,9 +308,9 @@ export const data: TravelDestination[] = [
     price: 300,
     rating: 4.21,
     photos: [
-      'https://images.unsplash.com/photo-1502672260266-1c1ef2d93688',
-      'https://images.unsplash.com/photo-1515263487990-61b07816b324',
-      'https://images.unsplash.com/photo-1522708323590-d24dbb6b0267',
+      '/../public/apartament/58.jpg',
+      '/../public/apartament/59.jpg',
+      '/../public/apartament/60.jpg',
     ],
   },
   {
@@ -324,9 +323,9 @@ export const data: TravelDestination[] = [
     price: 200,
     rating: 4.82,
     photos: [
-      'https://images.unsplash.com/photo-1459767129954-1b1c1f9b9ace',
-      'https://images.unsplash.com/photo-1580216643062-cf460548a66a',
-      'https://images.unsplash.com/photo-1560440021-33f9b867899d',
+      '/../public/apartament/1.jpg',
+      '/../public/apartament/2.jpg',
+      '/../public/apartament/3.jpg',
     ],
   },
   {
@@ -339,9 +338,9 @@ export const data: TravelDestination[] = [
     price: 150,
     rating: 4.34,
     photos: [
-      'https://images.unsplash.com/photo-1522708323590-d24dbb6b0267',
-      'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2',
-      'https://images.unsplash.com/photo-1493809842364-78817add7ffb',
+      '/../public/apartament/4.jpg',
+      '/../public/apartament/5.jpg',
+      '/../public/apartament/6.jpg',
     ],
   },
   {
@@ -354,9 +353,9 @@ export const data: TravelDestination[] = [
     price: 250,
     rating: 4.92,
     photos: [
-      'https://images.unsplash.com/photo-1574362848149-11496d93a7c7',
-      'https://images.unsplash.com/photo-1484154218962-a197022b5858',
-      'https://images.unsplash.com/photo-1579632652768-6cb9dcf85912',
+      '/../public/apartament/7.jpg',
+      '/../public/apartament/8.jpg',
+      '/../public/apartament/9.jpg',
     ],
   },
   {
@@ -369,9 +368,9 @@ export const data: TravelDestination[] = [
     price: 300,
     rating: 4.67,
     photos: [
-      'https://images.unsplash.com/photo-1460317442991-0ec209397118',
-      'https://images.unsplash.com/photo-1523192193543-6e7296d960e4',
-      'https://images.unsplash.com/photo-1502672023488-70e25813eb80',
+      '/../public/apartament/10.jpg',
+      '/../public/apartament/11.jpg',
+      '/../public/apartament/12.jpg',
     ],
   },
   {
@@ -384,9 +383,9 @@ export const data: TravelDestination[] = [
     price: 180,
     rating: 4.51,
     photos: [
-      'https://images.unsplash.com/photo-1580041065738-e72023775cdc',
-      'https://images.unsplash.com/photo-1556020685-ae41abfc9365',
-      'https://images.unsplash.com/photo-1515263487990-61b07816b324',
+      '/../public/apartament/13.jpg',
+      '/../public/apartament/14.jpg',
+      '/../public/apartament/15.jpg',
     ],
   },
   {
@@ -399,9 +398,9 @@ export const data: TravelDestination[] = [
     price: 220,
     rating: 4.89,
     photos: [
-      'https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd',
-      'https://images.unsplash.com/photo-1628592102751-ba83b0314276',
-      'https://images.unsplash.com/photo-1630699144867-37acec97df5a',
+      '/../public/apartament/16.jpg',
+      '/../public/apartament/17.jpg',
+      '/../public/apartament/18.jpg',
     ],
   },
   {
@@ -414,9 +413,9 @@ export const data: TravelDestination[] = [
     price: 180,
     rating: 4.72,
     photos: [
-      'https://images.unsplash.com/photo-1556020685-ae41abfc9365',
-      'https://images.unsplash.com/photo-1502672260266-1c1ef2d93688',
-      'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00',
+      '/../public/apartament/19.jpg',
+      '/../public/apartament/20.jpg',
+      '/../public/apartament/21.jpg',
     ],
   },
   {
@@ -429,9 +428,9 @@ export const data: TravelDestination[] = [
     price: 200,
     rating: 4.78,
     photos: [
-      'https://images.unsplash.com/photo-1580216643062-cf460548a66a',
-      'https://images.unsplash.com/photo-1484154218962-a197022b5858',
-      'https://images.unsplash.com/photo-1579632652768-6cb9dcf85912',
+      '/../public/apartament/22.jpg',
+      '/../public/apartament/23.jpg',
+      '/../public/apartament/24.jpg',
     ],
   },
   {
@@ -444,9 +443,9 @@ export const data: TravelDestination[] = [
     price: 280,
     rating: 4.91,
     photos: [
-      'https://images.unsplash.com/photo-1523192193543-6e7296d960e4',
-      'https://images.unsplash.com/photo-1493809842364-78817add7ffb',
-      'https://images.unsplash.com/photo-1459767129954-1b1c1f9b9ace',
+      '/../public/apartament/25.jpg',
+      '/../public/apartament/26.jpg',
+      '/../public/apartament/27.jpg',
     ],
   },
   {
@@ -459,9 +458,9 @@ export const data: TravelDestination[] = [
     price: 250,
     rating: 4.35,
     photos: [
-      'https://images.unsplash.com/photo-1515263487990-61b07816b324',
-      'https://images.unsplash.com/photo-1522708323590-d24dbb6b0267',
-      'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2',
+      '/../public/apartament/28.jpg',
+      '/../public/apartament/29.jpg',
+      '/../public/apartament/30.jpg',
     ],
   },
   {
@@ -474,9 +473,9 @@ export const data: TravelDestination[] = [
     price: 320,
     rating: 4.57,
     photos: [
-      'https://images.unsplash.com/photo-1630699144867-37acec97df5a',
-      'https://images.unsplash.com/photo-1580041065738-e72023775cdc',
-      'https://images.unsplash.com/photo-1560440021-33f9b867899d',
+      '/../public/apartament/31.jpg',
+      '/../public/apartament/32.jpg',
+      '/../public/apartament/33.jpg',
     ],
   },
   {
@@ -489,9 +488,9 @@ export const data: TravelDestination[] = [
     price: 180,
     rating: 4.26,
     photos: [
-      'https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd',
-      'https://images.unsplash.com/photo-1628592102751-ba83b0314276',
-      'https://images.unsplash.com/photo-1574362848149-11496d93a7c7',
+      '/../public/apartament/34.jpg',
+      '/../public/apartament/35.jpg',
+      '/../public/apartament/36.jpg',
     ],
   },
   {
@@ -504,9 +503,9 @@ export const data: TravelDestination[] = [
     price: 230,
     rating: 4.94,
     photos: [
-      'https://images.unsplash.com/photo-1460317442991-0ec209397118',
-      'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00',
-      'https://images.unsplash.com/photo-1502672023488-70e25813eb80',
+      '/../public/apartament/37.jpg',
+      '/../public/apartament/38.jpg',
+      '/../public/apartament/39.jpg',
     ],
   },
   {
@@ -519,9 +518,9 @@ export const data: TravelDestination[] = [
     price: 160,
     rating: 4.63,
     photos: [
-      'https://images.unsplash.com/photo-1560440021-33f9b867899d',
-      'https://images.unsplash.com/photo-1556020685-ae41abfc9365',
-      'https://images.unsplash.com/photo-1502672260266-1c1ef2d93688',
+      '/../public/apartament/40.jpg',
+      '/../public/apartament/41.jpg',
+      '/../public/apartament/42.jpg',
     ],
   },
   {
@@ -534,9 +533,9 @@ export const data: TravelDestination[] = [
     price: 120,
     rating: 4.83,
     photos: [
-      'https://images.unsplash.com/photo-1484154218962-a197022b5858',
-      'https://images.unsplash.com/photo-1580041065738-e72023775cdc',
-      'https://images.unsplash.com/photo-1579632652768-6cb9dcf85912',
+      '/../public/apartament/43.jpg',
+      '/../public/apartament/44.jpg',
+      '/../public/apartament/45.jpg',
     ],
   },
   {
@@ -549,9 +548,9 @@ export const data: TravelDestination[] = [
     price: 200,
     rating: 4.57,
     photos: [
-      'https://images.unsplash.com/photo-1628592102751-ba83b0314276',
-      'https://images.unsplash.com/photo-1574362848149-11496d93a7c7',
-      'https://images.unsplash.com/photo-1630699144867-37acec97df5a',
+      '/../public/apartament/46.jpg',
+      '/../public/apartament/47.jpg',
+      '/../public/apartament/48.jpg',
     ],
   },
   {
@@ -564,9 +563,9 @@ export const data: TravelDestination[] = [
     price: 280,
     rating: 4.12,
     photos: [
-      'https://images.unsplash.com/photo-1459767129954-1b1c1f9b9ace',
-      'https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd',
-      'https://images.unsplash.com/photo-1580216643062-cf460548a66a',
+      '/../public/apartament/49.jpg',
+      '/../public/apartament/50.jpg',
+      '/../public/apartament/51.jpg',
     ],
   },
   {
@@ -579,9 +578,9 @@ export const data: TravelDestination[] = [
     price: 150,
     rating: 4.95,
     photos: [
-      'https://images.unsplash.com/photo-1523192193543-6e7296d960e4',
-      'https://images.unsplash.com/photo-1493809842364-78817add7ffb',
-      'https://images.unsplash.com/photo-1502672023488-70e25813eb80',
+      '/../public/apartament/52.jpg',
+      '/../public/apartament/53.jpg',
+      '/../public/apartament/54.jpg',
     ],
   },
   {
@@ -594,9 +593,9 @@ export const data: TravelDestination[] = [
     price: 220,
     rating: 4.68,
     photos: [
-      'https://images.unsplash.com/photo-1460317442991-0ec209397118',
-      'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2',
-      'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00',
+      '/../public/apartament/55.jpg',
+      '/../public/apartament/56.jpg',
+      '/../public/apartament/57.jpg',
     ],
   },
 
@@ -610,9 +609,9 @@ export const data: TravelDestination[] = [
     price: 200,
     rating: 4.82,
     photos: [
-      'https://images.unsplash.com/photo-1459767129954-1b1c1f9b9ace',
-      'https://images.unsplash.com/photo-1580216643062-cf460548a66a',
-      'https://images.unsplash.com/photo-1522708323590-d24dbb6b0267',
+      '/../public/apartament/58.jpg',
+      '/../public/apartament/59.jpg',
+      '/../public/apartament/60.jpg',
     ],
   },
 ];
