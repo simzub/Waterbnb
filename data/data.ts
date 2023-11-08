@@ -23,9 +23,9 @@ export const data: TravelDestination[] = [
     price: 300,
     rating: 4.21,
     photos: [
-      '/../public/apartament/1.jpg',
-      '/../public/apartament/2.jpg',
-      '/../public/apartament/3.jpg',
+      '/images/apartament/1.jpg',
+      '/images/apartament/2.jpg',
+      '/images/apartament/3.jpg',
     ],
   },
   {
@@ -38,9 +38,9 @@ export const data: TravelDestination[] = [
     price: 150,
     rating: 4.34,
     photos: [
-      '/../public/apartament/4.jpg',
-      '/../public/apartament/5.jpg',
-      '/../public/apartament/6.jpg',
+      '/images/apartament/4.jpg',
+      '/images/apartament/5.jpg',
+      '/images/apartament/6.jpg',
     ],
   },
   {
@@ -53,9 +53,9 @@ export const data: TravelDestination[] = [
     price: 250,
     rating: 4.92,
     photos: [
-      '/../public/apartament/7.jpg',
-      '/../public/apartament/8.jpg',
-      '/../public/apartament/9.jpg',
+      '/images/apartament/7.jpg',
+      '/images/apartament/8.jpg',
+      '/images/apartament/9.jpg',
     ],
   },
   {
@@ -68,9 +68,9 @@ export const data: TravelDestination[] = [
     price: 300,
     rating: 4.67,
     photos: [
-      '/../public/apartament/10.jpg',
-      '/../public/apartament/11.jpg',
-      '/../public/apartament/12.jpg',
+      '/images/apartament/10.jpg',
+      '/images/apartament/11.jpg',
+      '/images/apartament/12.jpg',
     ],
   },
   {
@@ -83,9 +83,9 @@ export const data: TravelDestination[] = [
     price: 180,
     rating: 4.51,
     photos: [
-      '/../public/apartament/13.jpg',
-      '/../public/apartament/14.jpg',
-      '/../public/apartament/15.jpg',
+      '/images/apartament/13.jpg',
+      '/images/apartament/14.jpg',
+      '/images/apartament/15.jpg',
     ],
   },
   {
@@ -98,9 +98,9 @@ export const data: TravelDestination[] = [
     price: 220,
     rating: 4.89,
     photos: [
-      '/../public/apartament/16.jpg',
-      '/../public/apartament/17.jpg',
-      '/../public/apartament/18.jpg',
+      '/images/apartament/16.jpg',
+      '/images/apartament/17.jpg',
+      '/images/apartament/18.jpg',
     ],
   },
   {
@@ -113,9 +113,9 @@ export const data: TravelDestination[] = [
     price: 180,
     rating: 4.72,
     photos: [
-      '/../public/apartament/19.jpg',
-      '/../public/apartament/20.jpg',
-      '/../public/apartament/21.jpg',
+      '/images/apartament/19.jpg',
+      '/images/apartament/20.jpg',
+      '/images/apartament/21.jpg',
     ],
   },
   {
@@ -128,9 +128,9 @@ export const data: TravelDestination[] = [
     price: 200,
     rating: 4.78,
     photos: [
-      '/../public/apartament/22.jpg',
-      '/../public/apartament/23.jpg',
-      '/../public/apartament/24.jpg',
+      '/images/apartament/22.jpg',
+      '/images/apartament/23.jpg',
+      '/images/apartament/24.jpg',
     ],
   },
   {
@@ -143,9 +143,9 @@ export const data: TravelDestination[] = [
     price: 280,
     rating: 4.91,
     photos: [
-      '/../public/apartament/25.jpg',
-      '/../public/apartament/26.jpg',
-      '/../public/apartament/27.jpg',
+      '/images/apartament/25.jpg',
+      '/images/apartament/26.jpg',
+      '/images/apartament/27.jpg',
     ],
   },
   {
@@ -158,9 +158,9 @@ export const data: TravelDestination[] = [
     price: 250,
     rating: 4.35,
     photos: [
-      '/../public/apartament/28.jpg',
-      '/../public/apartament/29.jpg',
-      '/../public/apartament/30.jpg',
+      '/images/apartament/28.jpg',
+      '/images/apartament/29.jpg',
+      '/images/apartament/30.jpg',
     ],
   },
   {
@@ -173,9 +173,9 @@ export const data: TravelDestination[] = [
     price: 320,
     rating: 4.57,
     photos: [
-      '/../public/apartament/31.jpg',
-      '/../public/apartament/32.jpg',
-      '/../public/apartament/33.jpg',
+      '/images/apartament/31.jpg',
+      '/images/apartament/32.jpg',
+      '/images/apartament/33.jpg',
     ],
   },
   {
@@ -188,9 +188,9 @@ export const data: TravelDestination[] = [
     price: 180,
     rating: 4.26,
     photos: [
-      '/../public/apartament/34.jpg',
-      '/../public/apartament/35.jpg',
-      '/../public/apartament/36.jpg',
+      '/images/apartament/34.jpg',
+      '/images/apartament/35.jpg',
+      '/images/apartament/36.jpg',
     ],
   },
   {
@@ -203,9 +203,9 @@ export const data: TravelDestination[] = [
     price: 230,
     rating: 4.94,
     photos: [
-      '/../public/apartament/37.jpg',
-      '/../public/apartament/38.jpg',
-      '/../public/apartament/39.jpg',
+      '/images/apartament/37.jpg',
+      '/images/apartament/38.jpg',
+      '/images/apartament/39.jpg',
     ],
   },
   {
@@ -218,9 +218,9 @@ export const data: TravelDestination[] = [
     price: 160,
     rating: 4.63,
     photos: [
-      '/../public/apartament/40.jpg',
-      '/../public/apartament/41.jpg',
-      '/../public/apartament/42.jpg',
+      '/images/apartament/40.jpg',
+      '/images/apartament/41.jpg',
+      '/images/apartament/42.jpg',
     ],
   },
   {
@@ -233,9 +233,9 @@ export const data: TravelDestination[] = [
     price: 120,
     rating: 4.83,
     photos: [
-      '/../public/apartament/43.jpg',
-      '/../public/apartament/44.jpg',
-      '/../public/apartament/45.jpg',
+      '/images/apartament/43.jpg',
+      '/images/apartament/44.jpg',
+      '/images/apartament/45.jpg',
     ],
   },
   {
@@ -248,9 +248,9 @@ export const data: TravelDestination[] = [
     price: 200,
     rating: 4.57,
     photos: [
-      '/../public/apartament/46.jpg',
-      '/../public/apartament/47.jpg',
-      '/../public/apartament/48.jpg',
+      '/images/apartament/46.jpg',
+      '/images/apartament/47.jpg',
+      '/images/apartament/48.jpg',
     ],
   },
   {
@@ -263,9 +263,9 @@ export const data: TravelDestination[] = [
     price: 280,
     rating: 4.12,
     photos: [
-      '/../public/apartament/49.jpg',
-      '/../public/apartament/50.jpg',
-      '/../public/apartament/51.jpg',
+      '/images/apartament/49.jpg',
+      '/images/apartament/50.jpg',
+      '/images/apartament/51.jpg',
     ],
   },
   {
@@ -278,9 +278,9 @@ export const data: TravelDestination[] = [
     price: 150,
     rating: 4.95,
     photos: [
-      '/../public/apartament/52.jpg',
-      '/../public/apartament/53.jpg',
-      '/../public/apartament/54.jpg',
+      '/images/apartament/52.jpg',
+      '/images/apartament/53.jpg',
+      '/images/apartament/54.jpg',
     ],
   },
   {
@@ -293,9 +293,9 @@ export const data: TravelDestination[] = [
     price: 220,
     rating: 4.68,
     photos: [
-      '/../public/apartament/55.jpg',
-      '/../public/apartament/56.jpg',
-      '/../public/apartament/57.jpg',
+      '/images/apartament/55.jpg',
+      '/images/apartament/56.jpg',
+      '/images/apartament/57.jpg',
     ],
   },
   {
@@ -308,9 +308,9 @@ export const data: TravelDestination[] = [
     price: 300,
     rating: 4.21,
     photos: [
-      '/../public/apartament/58.jpg',
-      '/../public/apartament/59.jpg',
-      '/../public/apartament/60.jpg',
+      '/images/apartament/58.jpg',
+      '/images/apartament/59.jpg',
+      '/images/apartament/60.jpg',
     ],
   },
   {
@@ -323,9 +323,9 @@ export const data: TravelDestination[] = [
     price: 200,
     rating: 4.82,
     photos: [
-      '/../public/apartament/1.jpg',
-      '/../public/apartament/2.jpg',
-      '/../public/apartament/3.jpg',
+      '/images/apartament/1.jpg',
+      '/images/apartament/2.jpg',
+      '/images/apartament/3.jpg',
     ],
   },
   {
@@ -338,9 +338,9 @@ export const data: TravelDestination[] = [
     price: 150,
     rating: 4.34,
     photos: [
-      '/../public/apartament/4.jpg',
-      '/../public/apartament/5.jpg',
-      '/../public/apartament/6.jpg',
+      '/images/apartament/4.jpg',
+      '/images/apartament/5.jpg',
+      '/images/apartament/6.jpg',
     ],
   },
   {
@@ -353,9 +353,9 @@ export const data: TravelDestination[] = [
     price: 250,
     rating: 4.92,
     photos: [
-      '/../public/apartament/7.jpg',
-      '/../public/apartament/8.jpg',
-      '/../public/apartament/9.jpg',
+      '/images/apartament/7.jpg',
+      '/images/apartament/8.jpg',
+      '/images/apartament/9.jpg',
     ],
   },
   {
@@ -368,9 +368,9 @@ export const data: TravelDestination[] = [
     price: 300,
     rating: 4.67,
     photos: [
-      '/../public/apartament/10.jpg',
-      '/../public/apartament/11.jpg',
-      '/../public/apartament/12.jpg',
+      '/images/apartament/10.jpg',
+      '/images/apartament/11.jpg',
+      '/images/apartament/12.jpg',
     ],
   },
   {
@@ -383,9 +383,9 @@ export const data: TravelDestination[] = [
     price: 180,
     rating: 4.51,
     photos: [
-      '/../public/apartament/13.jpg',
-      '/../public/apartament/14.jpg',
-      '/../public/apartament/15.jpg',
+      '/images/apartament/13.jpg',
+      '/images/apartament/14.jpg',
+      '/images/apartament/15.jpg',
     ],
   },
   {
@@ -398,9 +398,9 @@ export const data: TravelDestination[] = [
     price: 220,
     rating: 4.89,
     photos: [
-      '/../public/apartament/16.jpg',
-      '/../public/apartament/17.jpg',
-      '/../public/apartament/18.jpg',
+      '/images/apartament/16.jpg',
+      '/images/apartament/17.jpg',
+      '/images/apartament/18.jpg',
     ],
   },
   {
@@ -413,9 +413,9 @@ export const data: TravelDestination[] = [
     price: 180,
     rating: 4.72,
     photos: [
-      '/../public/apartament/19.jpg',
-      '/../public/apartament/20.jpg',
-      '/../public/apartament/21.jpg',
+      '/images/apartament/19.jpg',
+      '/images/apartament/20.jpg',
+      '/images/apartament/21.jpg',
     ],
   },
   {
@@ -428,9 +428,9 @@ export const data: TravelDestination[] = [
     price: 200,
     rating: 4.78,
     photos: [
-      '/../public/apartament/22.jpg',
-      '/../public/apartament/23.jpg',
-      '/../public/apartament/24.jpg',
+      '/images/apartament/22.jpg',
+      '/images/apartament/23.jpg',
+      '/images/apartament/24.jpg',
     ],
   },
   {
@@ -443,9 +443,9 @@ export const data: TravelDestination[] = [
     price: 280,
     rating: 4.91,
     photos: [
-      '/../public/apartament/25.jpg',
-      '/../public/apartament/26.jpg',
-      '/../public/apartament/27.jpg',
+      '/images/apartament/25.jpg',
+      '/images/apartament/26.jpg',
+      '/images/apartament/27.jpg',
     ],
   },
   {
@@ -458,9 +458,9 @@ export const data: TravelDestination[] = [
     price: 250,
     rating: 4.35,
     photos: [
-      '/../public/apartament/28.jpg',
-      '/../public/apartament/29.jpg',
-      '/../public/apartament/30.jpg',
+      '/images/apartament/28.jpg',
+      '/images/apartament/29.jpg',
+      '/images/apartament/30.jpg',
     ],
   },
   {
@@ -473,9 +473,9 @@ export const data: TravelDestination[] = [
     price: 320,
     rating: 4.57,
     photos: [
-      '/../public/apartament/31.jpg',
-      '/../public/apartament/32.jpg',
-      '/../public/apartament/33.jpg',
+      '/images/apartament/31.jpg',
+      '/images/apartament/32.jpg',
+      '/images/apartament/33.jpg',
     ],
   },
   {
@@ -488,9 +488,9 @@ export const data: TravelDestination[] = [
     price: 180,
     rating: 4.26,
     photos: [
-      '/../public/apartament/34.jpg',
-      '/../public/apartament/35.jpg',
-      '/../public/apartament/36.jpg',
+      '/images/apartament/34.jpg',
+      '/images/apartament/35.jpg',
+      '/images/apartament/36.jpg',
     ],
   },
   {
@@ -503,9 +503,9 @@ export const data: TravelDestination[] = [
     price: 230,
     rating: 4.94,
     photos: [
-      '/../public/apartament/37.jpg',
-      '/../public/apartament/38.jpg',
-      '/../public/apartament/39.jpg',
+      '/images/apartament/37.jpg',
+      '/images/apartament/38.jpg',
+      '/images/apartament/39.jpg',
     ],
   },
   {
@@ -518,9 +518,9 @@ export const data: TravelDestination[] = [
     price: 160,
     rating: 4.63,
     photos: [
-      '/../public/apartament/40.jpg',
-      '/../public/apartament/41.jpg',
-      '/../public/apartament/42.jpg',
+      '/images/apartament/40.jpg',
+      '/images/apartament/41.jpg',
+      '/images/apartament/42.jpg',
     ],
   },
   {
@@ -533,9 +533,9 @@ export const data: TravelDestination[] = [
     price: 120,
     rating: 4.83,
     photos: [
-      '/../public/apartament/43.jpg',
-      '/../public/apartament/44.jpg',
-      '/../public/apartament/45.jpg',
+      '/images/apartament/43.jpg',
+      '/images/apartament/44.jpg',
+      '/images/apartament/45.jpg',
     ],
   },
   {
@@ -548,9 +548,9 @@ export const data: TravelDestination[] = [
     price: 200,
     rating: 4.57,
     photos: [
-      '/../public/apartament/46.jpg',
-      '/../public/apartament/47.jpg',
-      '/../public/apartament/48.jpg',
+      '/images/apartament/46.jpg',
+      '/images/apartament/47.jpg',
+      '/images/apartament/48.jpg',
     ],
   },
   {
@@ -563,9 +563,9 @@ export const data: TravelDestination[] = [
     price: 280,
     rating: 4.12,
     photos: [
-      '/../public/apartament/49.jpg',
-      '/../public/apartament/50.jpg',
-      '/../public/apartament/51.jpg',
+      '/images/apartament/49.jpg',
+      '/images/apartament/50.jpg',
+      '/images/apartament/51.jpg',
     ],
   },
   {
@@ -578,9 +578,9 @@ export const data: TravelDestination[] = [
     price: 150,
     rating: 4.95,
     photos: [
-      '/../public/apartament/52.jpg',
-      '/../public/apartament/53.jpg',
-      '/../public/apartament/54.jpg',
+      '/images/apartament/52.jpg',
+      '/images/apartament/53.jpg',
+      '/images/apartament/54.jpg',
     ],
   },
   {
@@ -593,9 +593,9 @@ export const data: TravelDestination[] = [
     price: 220,
     rating: 4.68,
     photos: [
-      '/../public/apartament/55.jpg',
-      '/../public/apartament/56.jpg',
-      '/../public/apartament/57.jpg',
+      '/images/apartament/55.jpg',
+      '/images/apartament/56.jpg',
+      '/images/apartament/57.jpg',
     ],
   },
 
@@ -609,9 +609,9 @@ export const data: TravelDestination[] = [
     price: 200,
     rating: 4.82,
     photos: [
-      '/../public/apartament/58.jpg',
-      '/../public/apartament/59.jpg',
-      '/../public/apartament/60.jpg',
+      '/images/apartament/58.jpg',
+      '/images/apartament/59.jpg',
+      '/images/apartament/60.jpg',
     ],
   },
 ];
